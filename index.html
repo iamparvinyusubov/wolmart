@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>wolmart</title>
+    <link rel="stylesheet" href="/wolmart/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="container w-full bg-gray-100">
+      <div class="flex justify-between bg-gray-100 py-3">
+        <div class="left text-xs1 font-semibold text-gray-700 px-44">
+          <span>WELCOME TO WOLMART STORE MESSAGE OR REMOVE IT!</span>
+        </div>
+        <div class="right pr-[10rem]">
+          <ul
+            class="gap-x-4 flex text-xs1 text-gray-700 text-xs font-lexend justify-between items-center font-normal"
+          >
+            <li class="hover:text-[#336699] transition duration-500">
+              <a href="#!"
+                >USD <i class="fa-solid fa-chevron-down fa-1x"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#!"
+                ><img src="/wolmart/img/pngegg.png" alt="" sizes="2" srcset=""
+              /></a>
+            </li>
+            <li class="hover:text-[#336699]">
+              <a href="#!">ENG <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+
+            <li class="hover:text-[#336699]"><a href="#!">Blog</a></li>
+            <li class="hover:text-[#336699]"><a href="#!">Contact Us</a></li>
+            <li class="hover:text-[#336699]"><a href="#!">My Account</a></li>
+            <li class="hover:text-[#336699]">
+              <a href="#!"> <i class="fa-solid fa-user"></i> Sign In</a>
+            </li>
+            <li class="hover:text-[#336699]"><a href="#!">Register</a></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="mt-12 flex px-44 justify-between mx-auto w-full">
+        <div class="wolmart-logo w-[10%]">
+          <img src="/wolmart/img/logo.png" alt="" />
+        </div>
+        <div class="border-[#336699] border-2 rounded-md w-[40%] h-11 flex">
+          <div class="flex items-center">
+            <label
+              for="countries"
+              class="block mb-2 text-xs1 font-medium text-transparent dark:text-white"
+            ></label>
+            <select
+              id="countries"
+              class="bg-transparent border border-transparent text-transparent rounded-lg focus:ring-blue-500 block w-full p-2.5 bg-transparent:bg-gray-700 dark:placeholder-gray-400 dark:text-gray-500"
+            >
+              <option class="text-xs1">All Categories</option>
+              <option value="US" class="text-xs1">Fashion</option>
+              <option value="CA" class="text-xs1">Lifestyle</option>
+              <option value="FR" class="text-xs1">Clothes</option>
+              <option value="DE" class="text-xs1">Hobbies</option>
+            </select>
+          </div>
+          <div class="flex ml-1">
+            <input
+              type="search"
+              class="outline-none flex items-center mr-24 text-sm text-gray-600 placeholder-gray-500"
+              placeholder="Search in... "
+            />
+          </div>
+          <button>
+            <i
+              class="fa-solid fa-magnifying-glass items-center hover:text-[#336699]"
+            ></i>
+          </button>
+
+          <div></div>
+        </div>
+
+        <div>
+          <div class="group hover:text-[#336699]"></div>
+          <div class="flex">
+            <a class="mr-1 text-[#336699]" href="#!">Live chat </a>
+            <p class="text-gray-400">or:</p>
+          </div>
+
+          <div
+            class="text-[#3e3e3e] font-extrabold group hover:text-[#336699] hover:duration-300 relative"
+          >
+            <i class="fa-solid fa-phone right-32 fa-xl absolute"></i>
+            <a href="#!"></a> <a href="#!">0(800)123-456</a>
+          </div>
+        </div>
+        <div class="flex mr-4">
+          <div
+            class="flex flex-col items-center mr-4 hover:text-[#336699] hover:duration-300"
+          >
+            <a href="#!"
+              ><i class="fa-regular fa-heart fa-2xl"></i>
+              <a href="#!" class="mt-1 text-sm1">Wishlist</a>
+            </a>
+          </div>
+
+          <div
+            class="flex flex-col items-center mr-4 hover:text-[#336699] hover:duration-300"
+          >
+            <a href="#!"
+              ><i class="fa-solid fa-scale-unbalanced-flip fa-2xl"></i>
+              <a href="#!" class="mt-1 text-sm1">Compare</a>
+            </a>
+          </div>
+
+          <div
+            class="flex flex-col items-center hover:text-[#336699] hover:duration-300"
+          >
+            <a href="#!"
+              ><i class="fa-solid fa-bag-shopping fa-2xl"></i>
+              <a href="#!" class="mt-1 text-sm1">Cart</a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="border-t-[1px] mt-8"></div>
+      <div class="center flex justify-between px-36">
+        <div class="left ml-[31px]">
+          <ul
+            class="flex text-[#333333] font-semibold text-sm1 space-x-6 hover:duration-300 items-center"
+          >
+            <li class="cursor-pointer bg-[#f1f1f1] py-4 px-4">
+              <a href="#!" class="mr-10"
+                ><i class="fa-solid fa-bars mr-1"></i> BROWSER CATEGORIES
+              </a>
+              <i class="fa-sharp fa-solid fa-chevron-down fa-xs"></i>
+            </li>
+            <li class="text-[#4e7aa6] border-b-[3px] border-[#336699]"><a href="#!">Home
+
+              
+            </a></li>
+           
+
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] duration-300">Shop</a>
+            </li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] duration-300">Vendor</a>
+            </li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] duration-300">Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] duration-300">Pages</a>
+            </li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] duration-300"
+                >Elements</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="right mt-3 items-center">
+          <ul class="flex font-semibold text-sm1 space-x-6 hover:duration-300">
+            <li class="group text-[#333333] hover:text-[#4e7aa6] duration-300">
+              <a href="#!"><i class="fa-solid fa-location-dot mr-2"></i></a>
+              <a href="#!">Track order</a>
+            </li>
+            <li class="text-[#333333] hover:text-[#4e7aa6] duration-300">
+              <a href="#!"><i class="group fa-solid fa-gifts mr-2 ]"></i></a>
+              <a href="#!">Daily Deals</a>
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="center-2 relative">
+        <div class="relative cd ">
+          <img
+            class="w-full  h-[69vh]"
+            src="/wolmart/img/slide1.jpg"
+            alt=""
+          />
+          <div class="absolute top-[3.3rem] left-[30%]">
+            <img src="/wolmart/img/shoes.png" alt="" />
+          </div>
+          <div class="title absolute top-28 right-36 text-right">
+            <h3 class="text-[#666666] text-[40px] t font-normal">
+              Custom <span class="underline decoration-[#f77c29]">Men's</span>
+            </h3>
+            <h2 class="text-[#333333] pt-1 font-extrabold text-[50px]">
+              RUNNING SHOES
+            </h2>
+            <h1 class="text-[#707070] pt-1 text-[28px]">
+              Sale up to <span class="text-[#f77c29] font-bold">30% OFF</span>
+            </h1>
+            <button
+              class="bg-transparent hover:bg-[#333] text-[#484949] font-semibold hover:text-white py-3 px-8 border mt-6 hover:duration-300 border-[#484949] hover:border-transparent rounded"
+            >
+              SHOP NOW <i class="fa-solid fa-arrow-right ml-4"></i>
+            </button>
+          </div>
+        </div>
+        <div class="left-2 absolute top-0 w-[16.5%] ml-[10.5rem]">
+          <ul
+            class="bg-white text-[14px] top-1/2 space-y-2 font-lexend py-4 text-[#333333] px-4 cursor-pointer bg-contain shadow-lg w-[100%]"
+          >
+            <li class="hover:text-[#4e7aa6] group duration-300 cursor-pointer relative">
+              <a href="#!"> <i class="fa-solid fa-shirt mr-1"></i> Fashion</a>
+
+              <div
+                class="flex col-2 bg-white shadow-2xl w-[41vw] space-x-16 absolute left-[13.8rem] -top-[15px] invisible opacity-0 group-hover:visible group-hover:opacity-100"
+              >
+                <div>
+                  <ul
+                    class="text-[#737373] space-y-2 px-6 py-4 hover:duration-300"
+                  >
+                    <li class="text-[#393939] font-bold text-[16px]">WOMEN</li>
+                    <li class="border-t-[1px]"></li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">New arrivals</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Best Sellers</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Trending</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Clothing</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]"><a href="#!">Shoes</a></li>
+                    <li class="hover:text-[#4e7aa6]"><a href="#!">Bags</a></li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Accessories</a>
+                    </li>
+                    <li class="whitespace-nowrap hover:text-[#4e7aa6]">
+                      <a href="#!">Jewlery & Watches</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <ul class="text-[#737373] space-y-2 py-4 hover:duration-300">
+                    <li class="text-[#393939] font-bold text-[16px]">MEN</li>
+                    <li class="border-t-[1px]"></li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">New arrivals</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Best Sellers</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Trending</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Clothing</a>
+                    </li>
+                    <li class="hover:text-[#4e7aa6]"><a href="#!">Shoes</a></li>
+                    <li class="hover:text-[#4e7aa6]"><a href="#!">Bags</a></li>
+                    <li class="hover:text-[#4e7aa6]">
+                      <a href="#!">Accessories</a>
+                    </li>
+                    <li class="whitespace-nowrap hover:text-[#4e7aa6]">
+                      <a href="#!">Jewlery & Watches</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <div class="w-96 relative">
+                    <img src="/wolmart/img/banner-1-1.jpg" alt="" />
+                    <div class="absolute w-[8rem] top-[1.7rem] ml-[1.7rem]"> 
+                      <h1 class="text-[#3c3c3c]"> Get up to <span class="text-[#336699] font-bold"> 20% OFF </span></h1>
+                      <div class="flex-row-reverse">
+                        <span class="text-[#333333] font-extrabold text-[24px]">Hot Sales</span>
+                       <span class="text-[#3d3d3d]  font-bold text-[12px] mr-8">SHOP NOW <i class="fas fa-long-arrow-alt-right"></i>
+                      </div>
+
+                      </span>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] hover:duration-300">
+                <i class="fa-solid fa-house mr-1"></i> Home & Garden
+              </a>
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] hover:duration-300">
+                <i class="fa-solid fa-desktop mr-1"></i> Electronics</a
+              >
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li>
+              <a href="#!" class="hover:text-[#4e7aa6] hover:duration-300">
+                <i class="fa-solid fa-couch mr-1"></i> Furniture</a
+              >
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <a href="#!">
+                <i class="fa-solid fa-heart-circle-check mr-1"></i> Health &
+                Beauty</a
+              >
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <a href="#!">
+                <i class="fa-solid fa-gift mr-1"></i>
+
+                Gift Ideas
+              </a>
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <a href="#!">
+                <i class="fa-solid fa-gamepad mr-1"></i>
+
+                Toy & Games
+              </a>
+            </li>
+
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <a href="#!">
+                <i class="fa-solid fa-mug-hot mr-1"></i>
+
+                Cooking</a
+              >
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <a href="#!">
+                <i class="fa-solid fa-mobile-screen-button mr-1"></i>
+
+                Smart Phones
+              </a>
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <i class="fa-solid fa-camera mr-1"></i>
+
+              <a href="#!">Cameras & Photo</a>
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="hover:text-[#4e7aa6] hover:duration-300">
+              <a href="#!">
+                <i class="fa-solid fa-gem mr-1"></i>
+
+                Accessories</a
+              >
+            </li>
+            <li class="border-b-[1px]"></li>
+            <li class="text-[#7295b8]">
+              <a href="#!"
+                >VIEW ALL CATEGORIES
+                <i class="fa-solid fa-chevron-right mr-1"></i
+              ></a>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="right-2"></div>
+      </div>
+
+      <div class="flex border px-14 py-8 mt-[2rem] space-x-24 ml-44 w-[80%]">
+        <div class="flex col-auto">
+          <i class="fa-solid fa-truck text-[#336699] fa-2xl absolute mt-6"></i>
+
+          <div
+            class="flex flex-col text-[#666666] text-sm1 whitespace-nowrap ml-14 font-lexend"
+          >
+            <span>Free Shipping & Returns</span>
+            <span class="text-[#bcbcbc]">For all orders over $99</span>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <i
+            class="fa-solid fa-briefcase text-[#336699] fa-2xl absolute mt-6"
+          ></i>
+          <div
+            class="flex flex-col text-[#666666] text-sm1 whitespace-nowrap ml-14 font-lexend"
+          >
+            <span>Secure Payment</span>
+            <span class="text-[#bcbcbc]">We ensure secure payment</span>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <i
+            class="fa-solid fa-money-check-dollar text-[#336699] fa-2xl absolute mt-6"
+          ></i>
+          <div
+            class="flex flex-col text-[#666666] text-sm1 whitespace-nowrap ml-14 font-lexend"
+          >
+            <span>Money Back guarantee</span>
+            <span class="text-[#bcbcbc]">Any back within 30 days</span>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <i
+            class="fa-solid fa-comments text-[#336699] fa-2xl absolute mt-6"
+          ></i>
+          <div
+            class="flex flex-col text-[#666666] text-sm1 whitespace-nowrap ml-14 font-lexend"
+          >
+            <span>Customer Support</span>
+            <span class="text-[#bcbcbc]">Call or email us 24/7</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex space-x-8 w-[80%] justify-center mt-16 ml-[11rem]">
+        <div class="relative">
+          <img src="/wolmart/img/banner-1.jpg" alt="" />
+          <div class="absolute top-4 flex-col justify-center px-8">
+            <h4 class="text-[#464647] text-[20px]">
+              Get up to <span class="text-[#f77c29] font-bold"> 20% OFF</span>
+            </h4>
+            <h1 class="text-[#333333] font-extrabold text-[24px]">
+              SPORTS OUTFITS
+            </h1>
+            <h2 class="text-[#333333] text-[28px]">Collection</h2>
+            <span class="text-[#333333]">
+              Starting at
+              <p class="text-[#f77c29] font-bold">$170.00</p></span
+            >
+          </div>
+        </div>
+
+        <div>
+          <div class="relative">
+            <img src="/wolmart/img/banner-2.jpg" alt="" />
+            <div class="absolute top-4 flex-col justify-center px-8">
+              <h4 class="text-[#c4c4c5] text-[20px]">New Arrivals</h4>
+              <h1 class="text-[#ffffff] font-extrabold text-[24px]">
+                ACCESSORIES
+              </h1>
+              <h2 class="text-[#ffffff] text-[28px]">Collection</h2>
+              <span class="text-[#ffffff] whitespace-nowrap">
+                Only From
+                <p class="text-[#f77c29] font-bold">$90.00</p>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+    <div class="flex justify-center items-center mt-16">
+      <div class="center border-[1px] ml-[4.1rem] w-[59.7%]  rounded-md  border-[#4c79a5]">
+        <div class="flex items-center justify-between">
+          
+          <h1 class="text-[#333333] ml-6 flex mt-6 font-bold text-[20px]">
+            Deals Hot Of The Day </h1>
+            
+
+            <div class="mr-6">
+              <i class="fa-solid fa-chevron-left text-[#e7e7e7]"></i>
+  
+  
+            <a href="#!"><i class="fa-solid fa-chevron-right text-[#c6c6c6]"></i></a>
+            </div>
+        </div>
+
+         
+        
+        <div>
+          
+
+        </div>
+
+
+
+        <div class=" flex ml-[1.1rem] col-2 mt-6 ">
+          <div class="left ">
+            
+            <div class="space-y-4 flex-col col-2 w-16">
+              
+             <a href="#!"><img class="border-[1px] border-[#abbed1]"
+              src="/wolmart/img/Coat-Pool-Comfort-Jacket-1-1.jpg"
+              alt=""
+            /></a> 
+              <a href="#!"><img
+                src="/wolmart/img/Coat-Pool-Comfort-Jacket-2-1.jpg"
+                alt=""
+              /></a>
+              <a href="#!"><img
+                src="/wolmart/img/Coat-Pool-Comfort-Jacket-4-1.jpg"
+                alt=""
+              /></a>
+              <a href="#!"><img
+                src="/wolmart/img/Coat-Pool-Comfort-Jacket-3-1.jpg"
+                alt=""
+              /></a>
+             
+            </div>
+
+            
+          </div>
+          <div class=" w-[21rem] top-0 ml-2 ">
+            
+            <a href="#!"><img src="/wolmart/img/Coat-Pool-Comfort-Jacket-1-1.jpg" alt="" /></a>
+          </div>
+          <div class="right ml-[1rem]">
+            <div>
+              <a href="#!"><h1 class="text-[#333333] text-[20px] font-bold hover:text-[#4c79a5] duration-300">Coat Pool Comfort Jacket</h1></a>
+              <div class="border-t-[1px] mt-4">
+                <h1 class="text-[#373737] text-[22px] font-extrabold mt-4">$160.00 - $200.00</h1>
+                <div class="star mt-2 text-[#f77c29] flex items-center">
+                  <a href="#!"><i class="fa-solid fa-star"></i></a>
+                  <a href="#!"><i class="fa-solid fa-star"></i></a>
+                  <a href="#!"><i class="fa-solid fa-star"></i></a>
+                  <a href="#!"><i class="fa-solid fa-star"></i></a>
+                  <a href="#!"><i class="fa-solid fa-star mr-1"></i></a>
+                 <a href="#!"><p class="text-[#aeaeae] text-xs1 hover:text-[#3e6e9e] duration-300">(1 Reviews)</p></a>
+                </div>
+                <div class="space-x-2 mt-3">
+                  <span class="text-[#333333]"> Size: </span> <button class="bg-transparent text-[12px] text-[#8e8e8e] font-semibold hover:text-[#4473a1] py-1 px-2 border hover:duration-300 border-[#dfdfdf] hover:border-[#4473a1] rounded-sm">
+                    Extra Large
+                  </button><button class="bg-transparent  text-[12px] text-[#8e8e8e] font-semibold hover:text-[#4473a1] py-1 px-2 border hover:duration-300 border-[#dfdfdf] hover:border-[#4473a1] rounded-sm ">
+                    Large
+                  </button><button class="bg-transparent text-[12px] text-[#8e8e8e] font-semibold hover:text-[#4473a1] py-1 px-2 border hover:duration-300 border-[#dfdfdf] hover:border-[#4473a1] rounded-sm">
+                    Medium
+                  </button><button class="bg-transparent text-[12px] text-[#8e8e8e] font-semibold hover:text-[#4473a1] py-1 px-2 border hover:duration-300 border-[#dfdfdf] hover:border-[#4473a1] rounded-sm">
+                    Small
+                  </button>
+                </div>
+                <div class="flex">
+
+
+
+
+
+
+
+
+
+
+                  <div class="quantity ">
+                    <div class="border-t-[1px] mt-6 mb-6"></div>
+                    <button class="border mr-2 py-2 outline-none"> <input class="outline outline-none" type="number" value="1000" min="0" max="1000"> </button>
+                    <button class=" bg-[#EEEEEE] px-16  text-[#747474] font-bold text-[14px] py-3 rounded-sm">
+                      <i class="fa-solid fa-bag-shopping mr-2"></i>
+  
+  
+  
+  
+  
+  
+  
+                       ADD TO CART
+                    </button>
+                    <div >
+                      
+                    </div>
+
+
+
+
+
+
+
+                </div>
+                
+                
+                
+                </div>
+                <div class="mt-3"> <button class="bg-transparent text-gray-400 font-semibold  py-2 w-full border border-[#f0f0f0]  rounded">
+                  BUY NOW
+                </button> </div>
+                <div class="social-page space-x-2 mt-8 "> <a href="#!" class="border-[1px] bg-gray-400 hover:bg-[#37bb96] text-white duration-300 border-0  rounded-full px-[3px] py-[4px] "><i class="fa-brands fa-google ml-1"></i>
+                  <a href="#!" class="border-[1px] bg-gray-400 hover:bg-[#1c93e4] text-white duration-300 border-0 rounded-full px-[2px] py-[4px]"><i class="fa-brands fa-twitter ml-1"></i>
+
+                  </a>
+
+
+
+                </a>
+                 <a href="#!" class="border-[1px] bg-gray-400 hover:bg-[#da0021] text-white duration-300 border-0 rounded-full px-[9px] py-[4px]" ><i class="fab fa-pinterest-p"></i></a>
+                 <a href="#!" class="border-[1px] bg-gray-400 hover:bg-[#41ba4f] text-white duration-300 border-0 rounded-full px-[8px] py-[4px]"><i class="fab fa-whatsapp"></i></a>
+                 <a href="#!" class="border-[1px] bg-gray-400 rounded-full hover:bg-[#0b5fbb] duration-300 border-0 text-white px-2 py-1"><i class="fab fa-linkedin-in"></i></a>
+                 <span class="border-r-[1px] mr-4"></span>
+                 <a href="#!" class="hover:text-[#3e6e9e]"><i class="fa-regular fa-heart text-[#676767]"></i></a>
+                 <a href="#!"><i class="fa-solid fa-scale-unbalanced-flip fa-1x text-[#676767]"></i></a>
+
+
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+     
+     
+      </div>
+      
+      <div class="border-[1px] ml-6 w-[20.3%] mt-[-1.6rem] rounded-lg">
+      <div class="title flex items-center justify-between">
+        <div class="text-[#333333] font-bold text-[20px] mt-4 ml-6"><h1>Top 20 Best Seller</h1></div>
+        <div><i class="fa-solid fa-chevron-left text-[#e7e7e7]"></i>
+        <a href="#!"><i class="fa-solid fa-chevron-right text-[#c6c6c6]"></i></a></div>
+      </div>
+      
+      <div class="border-t-[1px] mt-4"></div>
+      
+    <div class="ml-6 space-y-6 mt-4">
+      <div class="flex">
+        <div class="w-[30%]">
+          <a href="#!"><img id="myImage1" src="/wolmart/img/kitchen-cooker-1-300x338.jpg" onmouseover="changeImage()" onmouseout="restoreImage()"></a>
+          
+        </div>
+        
+        <div class="star mt-2 text-[#cccccc] ml-4">
+          <div> 
+            <a href="#!" class="text-[#414141] text-[13px] font-bold hover:text-[#4271a0] duration-300">Kitchen Cooker</a></div>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star mr-1"></i></a>
+          <div class="text-[#333333] text-[16px] font-bold"> <span>$150.60</span> </div>
+
+           </div>
+
+           
+      </div>
+
+
+      <div class="flex">
+        <div class="w-[30%]">
+          <a href="#!"><img id="myImage2" src="/wolmart/img/professional-pixel-camera-1-300x338.jpg" onmouseover="changeImage2()" onmouseout="restoreImage2()"></a>
+          
+        </div>
+        <div> 
+        
+        <div class="star mt-2 text-[#f77c29] ml-4 flex-col items-center">
+          <div><a href="#!" class="text-[#414141] text-[13px] font-bold hover:text-[#4271a0] duration-300">Professional Pixel Camera</a></div>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star"></i></a>
+          <a href="#!"><i class="fa-solid fa-star mr-1"></i></a>
+          <div class="text-[#333333] text-[16px] font-bold"> <span class="mr-2">$215.68</span> <span class="text-[#cccccc] line-through">$230.45</span>
+           </div>
+
+           
+          
+          </div>
+      </div>
+      
+
+     
+      
+    </div>
+
+    <div class="flex ">
+      <div class="w-[30%] mb-4">
+        <a href="#!"><img id="myImage3" src="/wolmart/img/sport-womens-wear-1-300x338.jpg" onmouseover="changeImage3()" onmouseout="restoreImage3()"></a>
+        
+      </div>
+      
+      <div class="star mt-2 text-[#cccccc] ml-4">
+        <div> 
+          <a href="#!" class="text-[#414141] text-[13px] font-bold hover:text-[#4271a0] duration-300">Sport Women's Wear</a></div>
+        <a href="#!"><i class="fa-solid fa-star"></i></a>
+        <a href="#!"><i class="fa-solid fa-star"></i></a>
+        <a href="#!"><i class="fa-solid fa-star"></i></a>
+        <a href="#!"><i class="fa-solid fa-star"></i></a>
+        <a href="#!"><i class="fa-solid fa-star mr-1"></i></a>
+        <div class="text-[#333333] text-[16px] font-bold"> <span>$220.20</span> <span class="text-[#b2b2b2] line-through">$232.62</span></div>
+
+         </div>
+
+         
+    </div>
+    </div>
+
+    </div>
+
+      
+    </section>
+    <script src="/wolmart/main.js" type="text/javascript"></script>
+  </body>
+</html>
